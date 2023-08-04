@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Portafolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <h1>Mi Primer Portafolio</h1>
+        <div class="listaH">
+            <ul>
+                <li> <a href="#mi">Sobre mí</a></li>
+                <li> <a href="#fa">Formación Académica</a></li>
+                <li> <a href="#mp">Mis Proyectos</a></li>
+                <li> <a href="#fc">Formulario de Contacto</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <main>
+        
+        <section id="mi">
+            <h2 class="title"> 👩 Sobre mí</h2>
+            <p>¡Hola! Soy Valentina, estoy incursionando en las TI y me siento cada vez mas entusiasmada con lo que este mundo tiene para ofrecerme.</p>
+        </section>
+
+        <section id="fa">
+            <h2 class="title"> 🤓 Formación Académica</h2>
+            <div class="listaV">
+            <ul>
+                <li>Fase uno de introducción a la programación del curso Jóvenes a programar: <a href="certificado">Ver certificado</a></li>
+                <li>Actualmente cursando la fase dos de Jóvenes a programar</li>
+            </ul>
+            </div>
+        </section>
+
+        <section id="mp">
+            <h2 class="title"> 💡 Mis Proyectos</h2>
+            <div class="proyecto">
+                <h3>Nombre del proyecto</h3>
+                <p><a href="acá va el link">Aquí ingresaré en enlace cuando haya hecho un proyecto</a></p>
+            </div>
+            <div class="proyecto">
+                <h3>Nombre del otro proyecto</h3>
+                <p><a href="acá va el otro link">Aquí ingresaré en enlace cuando haya hecho otro</a></p>
+            </div>
+        </section>
+
+        <section id="contact">
+            <h2 class="title"> 📩 Formulario de Contacto</h2>
+            <form id="fc" action="MiPrimerPortfolio.html">
+                <p>Puedes contactarme a través del siguiente formulario:</p>
+                <p>Nombre y Apellido: 
+                <input type="text" name="nombre" size="40" required></p>
+                <p>Tematica: 
+                <select name="tematica" >
+                    <option value="Elige un Tema">-- Elige un Tema --</option>
+                    <option value="consulta">Consulta</option>
+                    <option value="propuesta">Propuesta</option>
+                    <option value="otro">Otro</option>
+                </select>
+                </p>
+                <p>Asunto: <input type="text" name="asunto"required size="30"></p>
+                <p>Cuerpo: <textarea name="cuerpo" id="cuerpo" cols="50" rows="5"></textarea></p>
+                <br>
+                <br>
+                <p><input id="boton" type="submit" value="Enviar"></p>
+        
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>Portafolio -- 2023 -- Valentina Alonso</p>
+    </footer>
+</body>
+
+</html>
